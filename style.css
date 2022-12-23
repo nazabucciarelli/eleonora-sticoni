@@ -226,8 +226,8 @@ label{
 	height: 45px; 
 	padding-left: 5px;
 	padding-right: 5px; 	
-	margin-bottom: 20px; 
-	margin-top: 10px; 	
+	margin-bottom: 5px;
+	margin-top: 0px;
 	background-color: #2ea1ff; 
 	border-color: #2ea1ff; 
 	border-style: solid; 
@@ -273,14 +273,14 @@ span{
 }
 
 .contact-container{
-    background-color: #eef4f7;
+    background-image: url(images/trama.png);
     background-attachment: fixed;
     background-size: cover;
-    height: 100vh;
+    height: 95vh;
     margin: 0;
     display: flex;
     align-items: center;
-    margin-top:50px;
+    margin-top:40px;
 }
 
 /* Termina formulario */
