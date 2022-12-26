@@ -32,21 +32,21 @@
 				<h3 class="form-subtitle">Escríbenos y a la brevedad nos pondremos en contacto contigo</h3>
 
 
-					<form action="submeter-formulario.php" method="post">				
+					<form action="https://formsubmit.co/405c1270e9107381d03075ab848425a1" method="POST">
 
 						
 								<div class="form-input">
 									<label for="nombre" class="colocar_nombre">Nombre
 										<span class="obligatorio">*</span>
 									</label>
-										<input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+										<input type="text" name="name" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
 								</div>
 							
 								<div class="form-input">
 									<label for="email" class="colocar_email">Email
 										<span class="obligatorio">*</span>
 									</label>
-										<input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+										<input type="email" name="email" id="email" required="obligatorio" placeholder="Escribe tu Email">
 								</div>	
 							
 							
@@ -54,21 +54,24 @@
 									<label for="asunto" class="colocar_asunto">Asunto
 										<span class="obligatorio">*</span>
 									</label>
-										<input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+										<input type="text" name="subject" id="asunto" required="obligatorio" placeholder="Escribe un asunto">
 								</div>		
 							
 								<div class="form-input">
 									<label for="mensaje" class="colocar_mensaje">Mensaje
 										<span class="obligatorio">*</span>
 									</label>                     
-                               		  <textarea name="introducir_mensaje" rows="4" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                               		  <textarea name="comments" rows="4" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea>
                                	</div>	  								
 							
 								<button type="submit" name="enviar_formulario" id="form-button">Enviar</button>
 
 								<p class="aviso">
 									<span class="obligatorio"> * </span>los campos son obligatorios.
-								</p>					
+								</p>
+
+						<input type="hidden" name="_next" value="eleonora-sticoni.web.app"/>
+						<input type="hidden" name="_captcha" value="false"/>
 						
 					</form>
 		</div>	
