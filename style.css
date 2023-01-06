@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;600;800&display=swap');
 
-
-
+/* navBar */
 nav {
     box-shadow: 1px 5px 60px rgba(0, 0, 0, 0.200);
+}
+
+.nav-link{
+    font-family: 'Dosis', sans-serif;
+    font-size: 24px;
+    color: #D63517 !important;
+    font-weight: 600 !important;
 }
 
 #logo{
@@ -22,6 +29,8 @@ nav {
     justify-content: flex-end;
 }
 
+/* Banner carousel */
+
 .banner-row {
     height: 100%;
 }
@@ -32,8 +41,18 @@ nav {
     background-size: cover;
     height: 78vh;
     margin-top: 50px;
+    
 }
 
+.banner-container:before{
+    content:'';
+	position: absolute;
+        top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+    background-color:   rgba(0, 0, 0, 0.205)
+}
 
 .firstImage {
     background-image: url(images/background.jpg);
@@ -43,8 +62,13 @@ nav {
     background-image: url(images/background2.jpg);
 }
 
+
 .thirdImage {
     background-image: url(images/background3.jpg);
+}
+
+#thirdTitle{
+    font-size: 3em;
 }
 
 .titles{
@@ -54,23 +78,64 @@ nav {
     align-items: center;
 }
 
+.titlesSecond{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
 
-.titles h2 {
-    font-family: 'Roboto', sans-serif;
+.titlesSecond h2{
+    font-family: 'Dosis', sans-serif;
     font-weight: 900;
-    font-size: 2.5em;
+    font-size: 3em;
     color: rgb(255, 255, 255);
     margin: 20px;
+    margin-bottom:70px;
+}
+
+.titlesSecond h3{
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    font-weight: 600;
+    font-family: 'Dosis', sans-serif;
+}
+
+.fa-chevron-down{
+    font-size: 20px;
+}
+
+.fa-chevron-down:hover{
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
 
 }
 
-.business-name {
-    font-family: 'Dancing Script', sans-serif;
-    margin-bottom: 20px;
-    font-weight: 500;
+.description{
+    font-family: 'Dosis', sans-serif;
+    color:white;
+    font-weight: 600;
+    font-size: 17px;
+    opacity: 0;
+    animation: fade-in 2s forwards;
+}
+
+
+
+.show{
+    display: block;
+
+}
+
+.titles h2 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 900;
+    font-size: 3em;
     color: rgb(255, 255, 255);
-    font-size: 2em;
-    text-align: center;
+    margin: 20px;
+
 }
 
 .wsp-button {
@@ -99,6 +164,13 @@ nav {
     width: 24px;
 }
 
+.carousel-control-next{
+    height: 80%;
+}
+
+.carousel-control-prev{
+    height: 80%;
+}
 
 
 
@@ -108,10 +180,49 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 15vh;
+    height: 16vh;
 }
 
-ul {
+.footer-row{
+    width: 100%;
+    height: 100%;
+}
+
+.footer-row div{
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-circles{
+    width: 100%;
+}
+
+.footer-circles-right{
+    width: 100%;
+
+    text-align: right;
+
+}
+
+.red{
+    height: 60px;
+    transition: 0.4s;
+}
+
+.red:hover {
+    transition: 0.4s;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.10);
+    cursor: pointer;
+}
+
+/* ul {
     position: relative;
     margin: 0;
     padding: 0;
@@ -188,13 +299,13 @@ ul li:nth-child(4) span {
 
 ul li:nth-child(5) span {
     background: rgb(103, 137, 247);
-}
+} */
 
 /* Empieza formulario */
 .contact_form {
     width: 550px;
     margin: 0px auto;
-    background-color: #ffffff93;
+    background-color: #fffffff1;
     border-radius: 20px;
     box-shadow: 1px 5px 60px rgba(0, 0, 0, 0.300);
 }
@@ -218,7 +329,7 @@ input {
     border-radius: 5px;
     border-style: solid;
     border-width: 1px;
-    border-color: #2ea1ff;
+    border-color: #D63517;
     margin-top: 10px;
     padding-left: 10px;
     margin-bottom: 10px;
@@ -231,7 +342,7 @@ textarea {
     border-radius: 5px;
     border-style: solid;
     border-width: 1px;
-    border-color: #2ea1ff;
+    border-color: #D63517;
     margin-top: 10px;
     padding-left: 10px;
     margin-bottom: 20px;
@@ -251,8 +362,8 @@ label {
     padding-right: 5px;
     margin-bottom: 5px;
     margin-top: 0px;
-    background-color: #2ea1ff;
-    border-color: #2ea1ff;
+    background-color: #D63517;
+    border-color: #D63517;
     border-style: solid;
     border-radius: 10px;
     width: 100%;
@@ -283,7 +394,7 @@ span {
 
 .formulario input:focus {
     outline: 0;
-    border: 1px solid #81c5ec;
+    border: 1px solid #D63517;
 }
 
 .formulario {
@@ -292,19 +403,20 @@ span {
 
 .formulario textarea:focus {
     outline: 0;
-    border: 1px solid #81c5ec;
+    border: 1px solid #D63517;
 }
 
 .contact-container {
     background-image: url(images/trama.png);
     background-attachment: fixed;
     background-size: cover;
-    height: 95vh;
+    height: 92vh;
     margin: 0;
     display: flex;
     align-items: center;
-    margin-top: 38px;
+    margin-top: 65px;
 }
+
 
 /* Termina formulario */
 
@@ -337,6 +449,19 @@ span {
         display: none;
     }
 
+    .titlesSecond h2{
+        font-size: 2em;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    
+    .titlesSecond h3{
+        font-size: 1.5em;
+    }
+
+    .titlesSecond p{
+        font-size: 15px;
+    }
 }
 
 
@@ -388,4 +513,33 @@ span {
     .titles h2{
         font-size: 18px;
     }
+
+    #thirdTitle{
+        font-size: 2em;
+    }
+
+    #logo{
+        width: 140px;
+    }
 }
+@media screen and (max-height: 700px){
+    .titlesSecond h2{
+        font-size: 1em;
+        margin-bottom:14px;
+    }
+
+    .titlesSecond h3{
+        font-size: 0.9em;
+    }
+
+    .titlesSecond p{
+        font-size: 11px;
+    }
+}
+
+/* Keyframes */
+
+@keyframes fade-in {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
