@@ -44,16 +44,6 @@ nav {
     
 }
 
-.banner-container:before{
-    content:'';
-	position: absolute;
-        top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-    background-color:   rgba(0, 0, 0, 0.205)
-}
-
 .firstImage {
     background-image: url(images/background.jpg);
 }
@@ -71,9 +61,33 @@ nav {
     background-image: url(images/background4.jpg);
 }
 
-.aval{
-    width: 200px;
+.container-aval{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    bottom:0;
+    width: 100%;
 }
+
+
+#paragraph-aval{
+    font-size: 18px;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    text-align: end;
+    float: left;
+    height: 100%;
+    width: 260px;
+}
+
+#aval{
+    height:100px;
+}
+
 
 #textFourthImage{
     font-size: 24px;
@@ -486,10 +500,6 @@ span {
         font-size: 18px;
     }
 
-    .aval{
-        width: 100px;
-    }
-
     
 }
 
@@ -506,6 +516,15 @@ span {
     .contact_form {
         width: 340px;
 
+    }
+
+    #paragraph-aval{
+        font-size: 13px;
+        width: 180px;
+    }
+
+    #aval{
+        height: 60px;
     }
 
 
