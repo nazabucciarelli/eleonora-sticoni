@@ -91,20 +91,80 @@ nav {
 
 #textFourthImage{
     font-size: 24px;
-    font-family: 'Dosis', sans-serif;
     font-weight: 600;
-    color: white;
 }
 
 #thirdTitle{
     font-size: 3em;
+    display: flex;
+    align-items: center;
+}
+
+#thirdSubtitle{
+    text-align: start;
+    font-size: 1.6em;
+}
+
+#temasList{
+    font-size: 1.7em;
+    font-weight: 800;
+    margin-top:20px;
+    list-style: none;
+}
+
+#temasList li{
+    margin-bottom: 10px;
+}
+
+#temasList li::before{
+    content: "►";
+    color:#D63517;
+    font-size: 1em;
+    margin:5px
+}
+
+.juridicIcon{
+    height: 1em;
+    margin:10px;
+}
+
+#juridicButton{
+    margin: 0 auto;
+    font-size: 20px;
+    border: none;
+    background-color: #D63517;
+    color:white;
+    padding:10px;
+    font-weight: 600;
+    transition:0.4s;
+    border-radius: 5px;
+}
+
+#juridicButton:hover {
+    transition: 0.4s;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.10);
+    cursor: pointer;
+}
+
+.container-button{
+    display:flex;
+    align-items: center;
 }
 
 .titles{
-    text-align: center;
     height: 100%;
     display: flex;
     align-items: center;
+    font-family: 'Dosis', sans-serif;
+    color:white;
+}
+
+.center{
+    text-align: center;
 }
 
 .titlesSecond{
@@ -167,32 +227,6 @@ nav {
 
 }
 
-
-.wsp-button {
-    background-color: rgb(62, 211, 62);
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    padding: 18px;
-    margin: 0px;
-    border-radius: 25px;
-    border: none;
-    color: white;
-    transition: 0.3s;
-}
-
-.wsp-button:hover {
-    transition: 0.3s;
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    transform: scale(1.04);
-}
-
-.wsp-button img {
-    width: 24px;
-}
 
 .carousel-control-next{
     height: 80%;
@@ -258,85 +292,6 @@ footer {
     height: 100%;
 
 }
-
-/* ul {
-    position: relative;
-    margin: 0;
-    padding: 0;
-    display: flex;
-
-}
-
-ul li {
-    position: relative;
-    list-style: none;
-    width: 60px;
-    height: 60px;
-    margin: 0 30px;
-    transform: rotate(-30deg) skew(25deg);
-    background: #ccc;
-
-}
-
-ul li span {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #000;
-    transition: 0.5s;
-    display: flex !important;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    font-size: 30px !important;
-}
-
-ul li:hover span:nth-child(5) {
-    transform: translate(40px, -40px);
-    opacity: 1;
-}
-
-ul li:hover span:nth-child(4) {
-    transform: translate(30px, -30px);
-    opacity: .8;
-}
-
-ul li:hover span:nth-child(3) {
-    transform: translate(20px, -20px);
-    opacity: .6;
-}
-
-ul li:hover span:nth-child(2) {
-    transform: translate(10px, -10px);
-    opacity: .4;
-}
-
-ul li:hover span:nth-child(1) {
-    transform: translate(0, 0);
-    opacity: .2;
-}
-
-ul li:nth-child(1) span {
-    background: rgb(17, 60, 201);
-}
-
-ul li:nth-child(2) span {
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-}
-
-ul li:nth-child(3) span {
-    background: rgb(0, 120, 124);
-}
-
-ul li:nth-child(4) span {
-    background: rgb(179, 14, 14);
-}
-
-ul li:nth-child(5) span {
-    background: rgb(103, 137, 247);
-} */
 
 /* Empieza formulario */
 .contact_form {
@@ -501,6 +456,25 @@ span {
     }
 
     
+    #thirdSubtitle{
+        font-size: 1em;
+    }
+
+    #temasList{
+        font-size: 1em;
+        padding:0;
+        margin:0;
+    }
+
+    #temasList li{
+        width: 100%;
+    }
+
+
+    #juridicButton{
+        padding:5px;
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width: 920px) {
@@ -508,7 +482,6 @@ span {
         display: none;
     }
 
-  
 }
 
 
@@ -531,6 +504,8 @@ span {
     textarea {
         height: 70px;
     }
+
+
 
 }
 
@@ -581,6 +556,7 @@ span {
     .contact-container{
         margin-top:50px
     }
+
 }
 
 
@@ -594,6 +570,7 @@ span {
       .titlesSecond h3{
         font-size: 18px;
       }
+
 
 }
 
@@ -612,6 +589,7 @@ span {
       .titlesSecond p{
         font-size: 12px;
       }
+
 }
 
 /* Movil M */
