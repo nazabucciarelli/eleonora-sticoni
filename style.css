@@ -623,7 +623,7 @@ span {
 }
 
 .thirdImage{
-    background-image: url(images/vertical_background2.jpg);
+    background-image: url(images/vertical_background2.jpg) !important;
 }
 }
 
