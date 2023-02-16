@@ -39,7 +39,7 @@ nav {
     height: 100%;
     background-attachment: fixed;
     background-size: cover;
-    height: 84vh;
+    height: 87vh;
     margin-top: 0px;
     
 }
@@ -243,7 +243,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 10vh;
+    height: 4vh;
 }
 
 .footer-row{
@@ -261,9 +261,9 @@ footer {
 
 
 .red{
-    height: 60px;
+    height: 50px;
     transition: 0.4s;
-    margin:40px;
+    margin:30px;
 }
 
 .red:hover {
@@ -618,13 +618,15 @@ span {
     font-size: 12px;
   }
 
+  .thirdImage{
+    background-image: url(images/vertical2.jpg) !important;
+}
+
   .secondImage {
     background-image: url(images/vertical_background.jpg) !important;
 }
 
-.thirdImage{
-    background-image: url(images/vertical_background2.jpg) !important;
-}
+
 }
 
 /* Portatil */
