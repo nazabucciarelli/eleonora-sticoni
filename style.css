@@ -103,6 +103,7 @@ nav {
 #thirdSubtitle{
     text-align: start;
     font-size: 1.6em;
+    width: 70%;
 }
 
 #temasList{
@@ -118,7 +119,7 @@ nav {
 
 #temasList li::before{
     content: "►";
-    color:#D63517;
+    color:#ffffff;
     font-size: 1em;
     margin:5px
 }
@@ -132,8 +133,8 @@ nav {
     margin: 0 auto;
     font-size: 20px;
     border: none;
-    background-color: #D63517;
-    color:white;
+    background-color: #ffffff;
+    color:#D63517;
     padding:10px;
     font-weight: 600;
     transition:0.4s;
@@ -620,6 +621,10 @@ span {
   .secondImage {
     background-image: url(images/vertical_background.jpg) !important;
 }
+
+.thirdImage{
+    background-image: url(images/vertical_background2.jpg);
+}
 }
 
 /* Portatil */
@@ -636,6 +641,14 @@ span {
   .red{
     height: 40px;
   }
+
+  
+}
+
+@media screen and (max-width:1100px) and (max-height:1000px){
+    #thirdSubtitle{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 350px){
