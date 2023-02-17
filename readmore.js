@@ -10,9 +10,14 @@ let hideTextBtn3 = document.getElementById("hide-text-btn-3");
 
 let hideText3 = document.getElementById("hide-text-3");
 
+let hideTextBtnJuridic = document.getElementById("hide-text-btn-juridic");
+
+let hideTextJuridic = document.getElementById("hide-text-juridic");
+
 hideTextBtn1.addEventListener('click',toggleText);
 hideTextBtn2.addEventListener('click',toggleText2);
 hideTextBtn3.addEventListener('click',toggleText3);
+hideTextBtnJuridic.addEventListener('click',toggleTextJuridic);
 
 function toggleText(){
     hideText1.classList.toggle('show');
@@ -24,5 +29,9 @@ function toggleText2(){
 
 function toggleText3(){
     hideText3.classList.toggle('show');
+}
+
+function toggleTextJuridic(){
+    hideTextJuridic.classList.toggle('show');
 }
 
