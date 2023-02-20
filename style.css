@@ -670,6 +670,22 @@ span {
       .titlesSecond p{
         font-size: 12px;
       }
+
+      #fourthTitle{
+        font-size: 15px;
+      }
+
+      .textsFourthImage{
+        font-size: 10px;
+      }
+
+      #moreInfo{
+        font-size: 10px;
+      }
+
+      #paragraph-aval{
+        font-size: 12px;
+      }
 }
 
 /* Movil S */
