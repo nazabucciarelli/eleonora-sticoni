@@ -61,20 +61,25 @@ nav {
     background-image: url(images/background4.jpg);
 }
 
-.container-aval{
-    display:flex;
+.container-course{
+    display: flex;
     justify-content: end;
-    align-items: center;
     position:absolute;
     bottom:0;
+    margin-left: 10px;
     width: 100%;
-}
-
-
-#paragraph-aval{
-    font-size: 18px;
     font-family: 'Dosis', sans-serif;
     color: rgb(255, 255, 255);
+}
+
+.container-aval{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+#paragraph-aval{
+    font-size: 16px;
     font-weight: 400;
     margin: 20px;
     padding: 0;
@@ -89,9 +94,36 @@ nav {
 }
 
 
-#textFourthImage{
-    font-size: 24px;
+.textsFourthImage{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#moreInfo{
+    margin: 20px auto;
+    font-size: 20px;
+    border: none;
+    background-color: #ffffff;
+    color:#D63517;
+    padding:10px;
     font-weight: 600;
+    transition:0.4s;
+    border-radius: 5px;
+}
+
+#moreInfo:hover{
+    transition: 0.4s;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.10);
+    cursor: pointer;
+}
+
+#container-moreInfo{
+    opacity: 0;
+    animation: fade-in 2s forwards;
 }
 
 #thirdTitle{
@@ -99,6 +131,17 @@ nav {
     display: flex;
     align-items: center;
 }
+
+#fourthTitle{
+    font-size: 3em;
+    text-align: center;
+}
+
+.fourthImage h3{
+    text-align: center;
+    font-weight: 600;
+}
+
 
 .thirdSubtitle{
     text-align: start;
@@ -445,8 +488,29 @@ span {
         font-size: 24px;
     }
 
-    #textFourthImage{
-        font-size: 18px;
+    .textsFourthImage{
+        font-size: 14px;
+    }
+
+    #fourthTitle{
+        font-size:22px;
+    }
+
+    .fourthImage h3{
+        font-size: 15px;
+    }
+
+    .comienzo{
+        display: none;
+    }
+
+    #moreInfo{
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    .moreInfoArrow{
+        font-size: inherit;
     }
 
     
@@ -487,7 +551,7 @@ span {
 
     #paragraph-aval{
         font-size: 13px;
-        width: 150px;
+        width: 300px;
     }
 
     #aval{

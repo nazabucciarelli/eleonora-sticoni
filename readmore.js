@@ -14,10 +14,15 @@ let hideTextBtnJuridic = document.getElementById("hide-text-btn-juridic");
 
 let hideTextJuridic = document.getElementById("hide-text-juridic");
 
+let hideTextCoachingIntegralBtn = document.getElementById("moreInfo");
+
+let hideTextCoachingIntegral = document.getElementById("container-moreInfo");
+
 hideTextBtn1.addEventListener('click',toggleText);
 hideTextBtn2.addEventListener('click',toggleText2);
 hideTextBtn3.addEventListener('click',toggleText3);
 hideTextBtnJuridic.addEventListener('click',toggleTextJuridic);
+hideTextCoachingIntegralBtn.addEventListener('click',toggleTextCoachingIntegral);
 
 function toggleText(){
     hideText1.classList.toggle('show');
@@ -35,3 +40,6 @@ function toggleTextJuridic(){
     hideTextJuridic.classList.toggle('show');
 }
 
+function toggleTextCoachingIntegral(){
+    hideTextCoachingIntegral.classList.toggle('show');
+}
