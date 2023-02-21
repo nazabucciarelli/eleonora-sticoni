@@ -98,7 +98,7 @@ nav {
 }
 
 .comienzo p{
-    margin:5px;
+    margin:2px;
 }
 
 
@@ -132,6 +132,10 @@ nav {
 #container-moreInfo{
     opacity: 0;
     animation: fade-in 2s forwards;
+}
+
+.comienzoMovil{
+    display: none;
 }
 
 #thirdTitle{
@@ -281,17 +285,6 @@ nav {
     font-size: 3em;
     color: rgb(255, 255, 255);
 }
-
-
-.carousel-control-next{
-    /*height: 80%; */
-}
-
-.carousel-control-prev{
-    /* height: 80%;*/
-}
-
-
 
 /* Empieza footer */
 
@@ -508,9 +501,7 @@ span {
         font-size: 15px;
     }
 
-    .comienzo{
-        display: none;
-    }
+
 
     #moreInfo{
         font-size: 14px;
@@ -547,6 +538,14 @@ span {
     .hidden {
         display: none;
     }
+
+    .comienzo{
+        display: none;
+      }
+
+      .comienzoMovil{
+        display: block;
+      }
 
 }
 
@@ -626,6 +625,7 @@ span {
     .banner-container{
         margin-top:50px;
     }
+
 }
 
 
@@ -640,6 +640,9 @@ span {
         font-size: 18px;
       }
 
+
+
+     
 
 }
 
@@ -719,7 +722,9 @@ span {
     background-image: url(images/vertical_background.jpg) !important;
 }
 
-
+    .textsFourthImage{
+        font-size: 12px;
+    }
 }
 
 /* Portatil */
