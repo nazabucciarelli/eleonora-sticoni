@@ -45,20 +45,20 @@ nav {
 }
 
 .firstImage {
-    background-image: url(images/background.jpg);
+    background-image: url(images/backgroundMain.jpg);
 }
 
 .secondImage {
-    background-image: url(images/background2.jpg);
+    background-image: url(images/backgroundSecond.jpg);
 }
 
 
 .thirdImage {
-    background-image: url(images/background3.jpg);
+    background-image: url(images/backgroundFinal.jpg);
 }
 
 .fourthImage {
-    background-image: url(images/background4.jpg);
+    background-image: url(images/backgroundThird.jpg);
 }
 
 .container-course{
