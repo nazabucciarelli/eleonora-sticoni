@@ -61,6 +61,18 @@ nav {
     background-image: url(images/backgroundThird.jpg);
 }
 
+.fifthImage{
+    background-image: url(images/backgroundFifth.JPG);
+}
+
+#fifthTitle {
+    text-align: center;
+}
+
+#fifthSubtitle{
+    text-align: center;
+}
+
 .container-course{
     display: flex;
     justify-content: end;
