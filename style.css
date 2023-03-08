@@ -71,7 +71,25 @@ nav {
 
 #fifthSubtitle{
     text-align: center;
+    margin-bottom: 20px;
 }
+
+
+.texts-discounts{
+    margin: 0 auto;
+    background-color: #d63417bd;
+    width: fit-content;
+    padding: 40px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.texts-discounts p, b{
+    margin:10px;
+}
+
+
 
 .container-course{
     display: flex;
@@ -175,7 +193,7 @@ nav {
 
 #temasList{
     font-size: 1.7em;
-    font-weight: 800;
+    font-weight: 500;
     margin-top:20px;
     list-style: none;
 }
@@ -260,6 +278,9 @@ nav {
     font-size: 2em;
     font-weight: 600;
     font-family: 'Dosis', sans-serif;
+}
+#subtitleSecond{
+    font-weight: 500;
 }
 
 .fa-chevron-down{
@@ -473,6 +494,19 @@ span {
 /* Empieza media queries */
 
 @media screen and (max-width: 590px) {
+    #fifthTitle{
+        font-size: 26px;
+      }
+
+    #fifthSubtitle{
+        font-size: 17px;
+    }
+
+    .texts-discounts{
+        font-size: 14px;
+        padding: 10px;
+    }
+
     .contact_form {
         width: 450px;
     }
@@ -587,6 +621,11 @@ span {
 }
 
 @media screen and (max-width: 300px) {
+
+    #fifthTitle{
+        font-size: 18px;
+    }
+
     .contact_form {
         width: 340px;
         margin-top: 10px;
@@ -638,6 +677,7 @@ span {
         margin-top:50px;
     }
 
+
 }
 
 
@@ -662,6 +702,9 @@ span {
 
 @media screen and (max-width: 425px)
  and (max-height: 667px) {
+    
+    
+
     .titlesSecond h2{
         font-size: 24px;
       }
@@ -674,6 +717,7 @@ span {
         font-size: 12px;
       }
 
+      
 
 
 }
