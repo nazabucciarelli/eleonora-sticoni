@@ -1,4 +1,9 @@
 @media screen and (max-width: 590px) {
+
+    .banner-container {
+        background-attachment: scroll;
+    }
+    
     #fifthTitle{
         font-size: 22px;
       }
