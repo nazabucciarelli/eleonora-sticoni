@@ -1,0 +1,343 @@
+@media screen and (max-width: 590px) {
+    #fifthTitle{
+        font-size: 22px;
+      }
+
+    #fifthSubtitle{
+        font-size: 17px;
+    }
+
+    .texts-discounts{
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .contact_form {
+        width: 450px;
+    }
+
+    .form-title {
+        font-size: 20px;
+    }
+
+    .form-subtitle {
+        font-size: 16px;
+    }
+
+    .titles h2 {
+        font-size: 2em;
+    }
+
+    .wsp-button {
+        padding: 16px;
+    }
+
+    .nav-link{
+        font-size: 1em;
+    }
+
+    .titles #thirdTitle{
+        font-size: 24px;
+    }
+
+    .textsFourthImage{
+        font-size: 14px;
+    }
+
+    #fourthTitle{
+        font-size:22px;
+    }
+
+    .fourthImage h3{
+        font-size: 15px;
+    }
+
+
+
+    #moreInfo{
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    .moreInfoArrow{
+        font-size: inherit;
+    }
+
+    
+    .thirdSubtitle{
+        font-size: 1em;
+    }
+
+    #temasList{
+        font-size: 1em;
+        padding:0;
+        margin:0;
+    }
+
+    #temasList li{
+        width: 100%;
+    }
+
+
+    #juridicButton{
+        padding:5px;
+        font-size: 15px;
+    }
+
+    .escuelaItem .container h2{
+        font-size: 2em;
+        text-align: center;
+    }
+    
+    .escuelaItem .container li{
+        font-size: 1em;
+        text-align: center;
+        width: 100%;
+    }
+
+    .escuelaItem ul{
+        padding: 0 0;
+    }
+
+    .subtitle{
+        text-align: center;
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .hidden {
+        display: none;
+    }
+
+    .comienzo{
+        display: none;
+      }
+
+      .comienzoMovil{
+        display: block;
+      }
+
+}
+
+
+@media screen and (max-width: 460px) {
+    .contact_form {
+        width: 340px;
+
+    }
+
+    #paragraph-aval{
+        font-size: 13px;
+        width: 300px;
+    }
+
+    #aval{
+        height: 60px;
+    }
+
+
+    textarea {
+        height: 70px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 300px) {
+
+    #fifthTitle{
+        font-size: 18px;
+    }
+
+    .contact_form {
+        width: 340px;
+        margin-top: 10px;
+    }
+
+    .contact-container {
+        padding-top: 20px;
+    }
+
+    textarea {
+        height: 70px;
+    }
+
+    ul li{
+        width: 33px;
+        height: 33px;
+    }
+
+
+    .wsp-button{
+        font-size: 14px;
+        padding: 14px;
+    }
+
+    .wsp-button img{
+        width: 15px;
+    }
+
+    .titles h2{
+        font-size: 18px;
+    }
+
+    #thirdTitle{
+        font-size: 2em;
+    }
+
+    #logo{
+        width: 140px;
+    }
+}
+
+
+@media screen and (max-height: 700px){
+    .contact-container{
+        margin-top:50px
+    }
+    
+    .banner-container{
+        margin-top:50px;
+    }
+
+
+}
+
+
+ /* Tablet */
+
+@media screen and (max-width: 900px)
+ and (max-height: 670px) {
+    .titlesSecond h2{
+        font-size: 37px;
+      }
+      .titlesSecond h3{
+        font-size: 18px;
+      }
+
+
+
+     
+
+}
+
+/* Movil L */
+
+@media screen and (max-width: 425px)
+ and (max-height: 667px) {
+    
+    
+
+    .titlesSecond h2{
+        font-size: 24px;
+      }
+    
+      .titlesSecond h3{
+        font-size: 18px;
+      }
+    
+      .titlesSecond p{
+        font-size: 12px;
+      }
+
+      
+
+
+}
+
+/* Movil M */
+
+@media screen and (max-width: 375px)
+ and (max-height: 667px) {
+    .titlesSecond h2{
+        font-size: 20px;
+      }
+    
+      .titlesSecond h3{
+        font-size: 18px;
+      }
+    
+      .titlesSecond p{
+        font-size: 12px;
+      }
+
+      #fourthTitle{
+        font-size: 15px;
+      }
+
+      .textsFourthImage{
+        font-size: 10px;
+      }
+
+      #moreInfo{
+        font-size: 10px;
+      }
+
+      #paragraph-aval{
+        font-size: 12px;
+      }
+}
+
+/* Movil S */
+@media screen and (max-width: 420px) and 
+       (max-height: 915px) {
+  .titlesSecond h2{
+    font-size: 20px;
+  }
+
+  .titlesSecond h3{
+    font-size: 18px;
+  }
+
+  .titlesSecond p{
+    font-size: 12px;
+  }
+
+  .thirdImage{
+    background-image: url(../images/vertical2.jpg) !important;
+}
+
+  .secondImage {
+    background-image: url(../images/vertical_background.jpg) !important;
+}
+
+    .textsFourthImage{
+        font-size: 12px;
+    }
+}
+
+/* Portatil */
+@media screen and (max-width: 1024px)
+ and (max-height: 670px) {
+  .contact_form {
+    margin-top:20px
+  }
+
+  .titlesSecond h3{
+    font-size: 18px;
+  }
+
+  .red{
+    height: 40px;
+  }
+
+  
+}
+
+@media screen and (max-width:1100px) and (max-height:1000px){
+    .thirdSubtitle{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 350px){
+    #logo{
+        width: 160px;
+    }
+
+    .contact-container{
+        height: 110vh;
+    }
+}
