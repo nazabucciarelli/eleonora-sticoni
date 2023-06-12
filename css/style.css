@@ -46,8 +46,7 @@ nav {
     background-attachment: fixed;
     background-size: cover;
     height: 87vh;
-    margin-top: 0px;
-    
+    margin-top: 0px;   
 }
 
 /* carousel images*/
@@ -66,7 +65,7 @@ nav {
 }
 
 .fourthImage {
-    background-image: url(../images/backgroundThird.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.103), rgba(0, 0, 0, 0.082)),url(../images/backgroundThird.jpg);
 }
 
 .fifthImage{
@@ -116,6 +115,7 @@ nav {
 .escuelaItem .container li{
     font-size: 1.5em;
 }
+
 /* end of carousel items*/
 .container-course{
     display: flex;
@@ -210,7 +210,6 @@ nav {
     text-align: center;
     font-weight: 600;
 }
-
 
 .thirdSubtitle{
     text-align: start;
@@ -329,8 +328,6 @@ nav {
     animation: fade-in 2s forwards;
 }
 
-
-
 .show{
     display: block;
 
@@ -342,32 +339,6 @@ nav {
     font-size: 3em;
     color: rgb(255, 255, 255);
 }
-/* Empieza sanacion de utero section */
-
-    .sanacion-utero-section{
-        margin:0;
-        margin: 7em 1em;
-    }
-
-    .sanacion-utero-section img {
-        display: block;
-        width: 60%;
-        margin: 20px auto;
-        box-shadow: 10px 10px 20px 10px #0e0e0e7a;
-        border-radius: 10px;
-    }
-
-    .sanacion-info-container{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .sanacion-info-container p{
-        font-family: var(--primary-font);
-        font-size: 1.4em;
-    }
-
-/* Termina sanacion de utero section */
 
 /* Empieza footer */
 
@@ -376,9 +347,9 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100%;
-    padding: 2em;
-    background-color: #f8f4f4;
+    height: 13vh;
+    padding: 1em;
+    background-color: #ffffff;
 }
 
 .subtitle{
@@ -406,7 +377,7 @@ footer {
 .red{
     height: 50px;
     transition: 0.4s;
-    margin:20px 20px 0px 20px;
+    margin:10px;
 }
 
 .red:hover {
